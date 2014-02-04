@@ -1,0 +1,251 @@
+$delius-font: 'Delius Swash Caps', sans-serif;
+$quattro-font: 'Quattrocento Sans', sans-serif;
+$blue-highlight-color: #00A2AD;
+$dark-grey: #444;
+
+
+
+/* STYLES THAT APPLY ALL THE TIME */
+.clear{
+  clear: both;
+}
+
+h1{
+  font-family: $delius-font;
+}
+
+h2, h3, h4, h5, h6{
+  font-family: $delius-font;
+  color: #555;
+  margin: 0;
+}
+
+p, ul, ol, li, a, span, div{
+  font-family: $quattro-font;
+}
+
+body{
+  background: url('../img/escheresque_ste.png');
+  background-repeat: repeat;
+  background-position: center;
+}
+
+#content{
+  background-color: #FFF;
+
+}
+
+#header{
+  background: url('../img/cream_pixels.png');
+  background-repeat: repeat;
+  background-position: center;
+  h1{
+	  text-align: center;
+	  font-size: 36px;
+	  height: 100px;
+	  line-height: 100px;
+	  font-color: $blue-highlight-color
+  }
+}
+
+
+
+h2{
+  font-size: 24px;
+  color: #555;
+}
+
+#text{
+}
+
+#contact{
+
+}
+
+#footer{
+  background: url('../img/cream_pixels.png');
+  background-repeat: repeat;
+  background-position: center;
+  a{
+	  height: 100px;
+	  line-height: 100px;
+	  display: block;
+	  text-align: center;
+	  font-family: $delius-font;
+	  font-color: $blue-highlight-color
+  }
+}
+
+#footer a{
+  height: 100px;
+  line-height: 100px;
+  display: block;
+  text-align: center;
+  font-family: $delius-font;
+  font-color: $blue-highlight-color
+}
+
+#slideshow{
+  margin-bottom: 30px;
+  .orbit-timer{
+  	display: none;
+  }
+  ul li{
+    background-size:cover;
+    background-position:center center;
+    height:450px;
+  }
+}
+
+
+
+/* STYLES FOR DESKTOP SIZE ONLY */
+
+@media only screen and (min-width: 64.063em) { 
+
+
+  
+
+
+
+}
+
+/* STYLES FOR IPAD AND LARGER (MEDIUM UP) */
+
+@media only screen and (min-width: 40.063em){
+
+  #main_nav{
+    height: 100px;
+    background-color: $dark-grey;
+	
+	.top-bar{
+		background-color: $dark-grey;
+      	height: 100px;
+        
+        .top-bar-section{
+        	height: 100px;
+        	
+        	.left{
+    	  		height: 100px;
+    	  		
+    	  		> li{
+       				background-color: $dark-grey;
+    				height: 100px;
+					
+					> a{
+    	    			background-color: $dark-grey;
+		    			height: 100px;
+		    			line-height: 100px;
+		  			}
+  		  		}
+  			}
+
+        	.right{
+    	  		height: 100px;
+    	  		
+    	  		> li{
+       				background-color: $dark-grey;
+    				height: 100px;
+					
+					> a{
+    	    			background-color: $dark-grey;
+		    			height: 100px;
+		    			line-height: 100px;
+		  			}
+  		  		}
+  			}
+
+  			.has-dropdown > a:after{
+    	  		top:50%;
+   			}
+      	}
+
+      .title-area{
+       	background-color: $dark-grey;
+    	height: 100px;
+    	
+    	.name{
+    	  
+    	  	h1{
+    			a{
+				    height: 100px;
+				    padding-left:0;
+				    background-image:none;
+				    background-size:0;
+				    background-repeat: no-repeat;
+				    background-position: 10px center;
+				    line-height: 100px;
+				}
+   		    }
+        }
+   	  }
+    }
+  }
+
+}
+
+
+/* STYLES FOR IPAD AND MOBILE */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em){ 
+
+  #slideshow ul li{
+    height:400px;
+  }
+
+}
+
+
+
+/* STYLES FOR MOBILE SIZE ONLY */
+
+@media only screen and (max-width: 40em) { 
+
+  #slideshow ul li{
+    height:275px;
+  }
+
+  #main_nav{
+  	
+  	background-color: $dark-grey;
+  	.top-bar{
+
+		background-color: $dark-grey;
+  		.top-bar-section{
+
+			background-color: $dark-grey;
+    		.right{
+    	
+    			background-color: $dark-grey;
+    			> ul{
+    
+    				background-color: $dark-grey;
+    				> li{
+    
+    					background-color: $dark-grey;
+    					> a{
+
+							background-color: $dark-grey;
+     					}
+
+						.right > ul > li.has-dropdown > a{
+
+  							background-color: $dark-grey;
+      					}
+  					}
+  				}
+
+  				.right > li.active > a{
+    				
+    				background: orange;
+  				}
+  			}
+  		}
+    } 
+  }
+
+
+
+  
+
+}
