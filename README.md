@@ -25,23 +25,23 @@
 4. add a new *font-family* directive and add the **$quattro-font** to 
   - p, ul, ol, li, a, span, div
 5. create a variable named **$blue-highlight-color** and set the value to **#00A2AD**
-6. add a new directive to change the *font color* to t**$blue-highlight-color** for 
+6. add a new directive to change the *font color* to **$blue-highlight-color** for 
   - #header h1
   - #footer a
 7. refactor the **#header** and **#header h1** style selectors to be nested selectors *(around line 31 to line 43)*
 8. refactor the **#footer** and **#footer a** style selectors to be nested selectors *(around line 57 to line 69)*
 9. refactor the **#slideshow** and **#slideshow .orbit-timer** and **#slideshow ul li** style selectors to be nested selectors *(around line 71 to line 83)*
 10. in the same way as 7. 8. 9. refactor the entire **#main_nav** set of styles within 
-  /* STYLES FOR IPAD AND LARGER (MEDIUM UP) */ 
-  @media only screen and (min-width: 40.063em) 
+  /* STYLES FOR IPAD AND LARGER (MEDIUM UP) * /  
+  @media only screen and (min-width: 40.063em)  
   *around lines 96 to line 159*
 11. same as 10. refactor the **#main_nav** set of styles within
-  /* STYLES FOR MOBILE SIZE ONLY */
-  @media only screen and (max-width: 40em)
+  /* STYLES FOR MOBILE SIZE ONLY * /  
+  @media only screen and (max-width: 40em)  
   *around lines 173 to line 218*
 12. create a variable named **$dark-grey** and set the value to **#444**
 13. set the *background color* to **$dark-grey** for
-  - /* STYLES FOR IPAD AND LARGER (MEDIUM UP) */
+  - /* STYLES FOR IPAD AND LARGER (MEDIUM UP) * /
       - #main_nav
       - #main_nav .top-bar
       - #main_nav .top-bar .top-bar-section .right > li,
@@ -49,7 +49,7 @@
       - #main_nav .top-bar .top-bar-section .right > li > a,
         #main_nav .top-bar .top-bar-section .left > li > a
       - #main_nav .top-bar .title-area
-  - /* STYLES FOR MOBILE SIZE ONLY */
+  - /* STYLES FOR MOBILE SIZE ONLY * /
       - #main_nav
       - #main_nav .top-bar
       - #main_nav .top-bar .top-bar-section
