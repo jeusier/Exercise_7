@@ -6,6 +6,14 @@
 - fork this repo
 - follow the steps below
 
+- here are screenshots of the final end result
+    - desktop mode
+        - http://grab.by/u5Gq
+        - http://grab.by/u5GO
+    - mobile mode
+        - http://grab.by/u5GW
+        - http://grab.by/u5H0
+
 ---
 
 1. create a variable named **$delius-font** and set the value to **'Delius Swash Caps', sans-serif**
